@@ -23,12 +23,10 @@ module.exports = (env) => {
       path: path.resolve(__dirname, 'dist'),
       filename: 'js/[name].[hash].js',
       publicPath: path.resolve(__dirname, 'dist')+"/",
-      chunkFilename: 'js/[id].[chunkhash].js',
-      publicPath: '/'
+      chunkFilename: 'js/[id].[chunkhash].js'
     },
     devServer: {
       port: 9000,
-      historyApiFallback: true,
     },
     module: {
       rules: [
