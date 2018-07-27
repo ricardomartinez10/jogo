@@ -1,0 +1,12 @@
+.Zona-item:first-child {
+    border-radius: 10px 0px 0px 10px;
+}
+.Zona-item:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+.Contenedor-Zona{
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 16px;
+    margin-left: 6px;
+}

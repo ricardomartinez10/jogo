@@ -1,0 +1,14 @@
+.Title{
+  width: auto;
+    text-align: center;
+    color: var(--main-text-color);
+    background:var(--main-color);
+    margin: 0 auto;
+    display: inline-block;
+    padding: 10px;
+    border-radius:var(--box-radius);
+}
+.Title-container{
+  text-align:center;
+  margin: 28px 0 5px 0;
+}

@@ -1,0 +1,36 @@
+.Detalle{
+  width: 35%;
+  background: var(--main-color);
+  height:400px;
+  color:var(--main-text-color);
+  float: left;
+  background-image:url('../../../img/pointer.png');
+  border-radius: var(--box-radius);
+}
+.Imagen{
+  width: 100%;
+}
+.Ocultar{
+  display: none;
+}
+.Mostrar{
+  display: block;
+}
+.Instruc{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 94px;
+  font-size: 19px;
+}
+.Titulo{
+      text-align: center;
+      border-bottom: 1px solid white;
+      padding-bottom: 13px;
+      margin: 17px 21px;
+}
+.Descrip{
+  font-weight:bold;
+}
+.Contenedor-Detalle{
+  padding: 0 20px 20px 20px;
+}

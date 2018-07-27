@@ -1,0 +1,21 @@
+
+.Zona-item{
+  width: auto;
+  height: auto;
+  padding: 9px;
+  background-color: var(--main-color);
+  display: inline-block;
+  color: var(--secondary-color);
+  margin-right: 3px;
+  cursor: pointer;
+  border: 0;
+}
+.Zona-item:hover{
+  background-color:#07985e;
+}
+
+.Zona-item:focus{
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+  border: 0px solid green;
+}

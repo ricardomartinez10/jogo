@@ -1,0 +1,32 @@
+.Item-menu{
+  display:inline-block;
+  margin-left: 2em;
+}
+.Logo{
+      margin: 15px 38px;
+  width: 45%;
+}
+.Logo-img{
+  position: relative;
+top: 3px;
+}
+.Item-link{
+  color: white;
+text-transform: uppercase;
+font-weight: bold;
+text-decoration: none;
+}
+.Info{
+  text-align:center;
+  color:#444444;
+  margin: 40px 0;
+}
+.Menu{
+  display: flex;
+      display: -webkit-flex;
+      -webkit-align-items: center;
+      display: flex;
+      align-items: center;
+      background:var(--main-color);
+    color: white;
+}

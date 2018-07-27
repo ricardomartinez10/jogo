@@ -1,0 +1,24 @@
+.Item-cancha{
+      width: 24%;
+      text-align: center;
+      background: var(--secondary-color);
+      margin-right: 8px;
+      margin-bottom: 8px;
+      border-radius: var(--box-radius);
+      box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.1);
+      border: 1px solid transparent;
+}
+.Detalles{
+  display: inline-block;
+    text-align: left;
+}
+.Item-titulo{    text-align: center;
+    border-bottom: 2px solid #00b16a;
+    padding-bottom: 13px;
+    margin: 17px 21px;
+  color: var(--main-color);
+  }
+.Item-detalle{
+  color:var(--secondary-text-color);
+margin-top: 1px;
+}
