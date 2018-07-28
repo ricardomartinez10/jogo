@@ -11,9 +11,9 @@ import Pagina404 from '../pages/containers/pagina404'
 const AppRoutes = () =>
 <App>
   <Switch>
-    <Route exact path="/" component={Home} />
-    <Route exact path="/directorio" component={Directorio} />
-    <Route exact path="/contacto" component={Contacto} />
+    <Route exact path="jogo-cali/" component={Home} />
+    <Route exact path="jogo-cali/directorio" component={Directorio} />
+    <Route exact path="jogo-cali/contacto" component={Contacto} />
     <Route component={Pagina404} />
   </Switch>
 </App>
