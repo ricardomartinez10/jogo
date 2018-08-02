@@ -8,7 +8,7 @@ export default [
     url: '/directorio'
   },
   {
-    title: 'Contacto',
+    title: 'Contácto',
     url: '/contacto'
   }
 ];

@@ -12,9 +12,9 @@ function Detalle(props) {
     <div className="Contenedor-Detalle">
       <img className="Imagen" src={props.detail.img} alt=""/>
       <p><span className="Descrip">Nombre : </span>{props.detail.nombre}</p>
-      <p><span className="Descrip">Direccion : </span>{props.detail.direccion}</p>
-      <p><span className="Descrip">Hora atencion : </span>{props.detail.atencion}</p>
-        <p><span className="Descrip">Telefono : </span>{props.detail.telefono}</p>
+      <p><span className="Descrip">Dirección : </span>{props.detail.direccion}</p>
+      <p><span className="Descrip">Hora atención : </span>{props.detail.atencion}</p>
+        <p><span className="Descrip">Teléfono : </span>{props.detail.telefono}</p>
     </div>
   </div>
 

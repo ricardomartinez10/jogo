@@ -26,7 +26,7 @@ class Home extends Component{
     return(
       <HomeLayout>
         <div className="Info">
-          Encuentra la cancha de futbol ideal de <br/>
+          Encuentra la cancha de fútbol ideal de <br/>
           todas las opciones que te ofrece la ciudad
         </div>
         <Detalle
