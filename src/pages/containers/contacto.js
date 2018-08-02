@@ -6,7 +6,7 @@ class Contacto extends Component{
   render(){
     return(
       <div className="Container">
-        <ContactoLayout img={contactoImg} title="CONTACTO"/>
+        <ContactoLayout img={contactoImg} title="CONTÁCTO"/>
       </div>
     )
   }
