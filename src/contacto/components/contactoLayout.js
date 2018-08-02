@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../../assets/components/title';
 import './contacto.css'
-import im from '../../../img/logo.png'
+import im from '../../../img/contacto.png'
 
 function ContactoLayout(props) {
   return(
