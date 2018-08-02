@@ -8,6 +8,6 @@ import AppRoutes from './routes'
 const app=document.getElementById('app');
 
 render(
-<Router>
+<Router basename='/jogo'>
   <AppRoutes/>
 </Router>  ,app);

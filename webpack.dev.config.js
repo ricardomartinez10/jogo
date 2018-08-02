@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/[name].js',
-    publicPath: '/'
+    publicPath: 'jogo'
   },
   devServer: {
     port: 9000,

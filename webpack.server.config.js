@@ -10,7 +10,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'ssr/[name].js',
-    libraryTarget: 'commonjs2'
+    libraryTarget: 'commonjs2',
+    publicPath: 'jogo'
   },
   target: 'node',
 

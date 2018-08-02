@@ -8,16 +8,12 @@ class Zona extends Component{
     activo:false
   }
   cambiarZona = (event) =>{
-    console.log(event.target.attributes);
     let lugar=event.target.attributes.lugar.nodeValue;
     this.setState({
       zona:lugar
     })
     this.props.lugarSeleccionado(lugar);
 
-  }
-  prueba=()=>{
-    console.log('holi');
   }
 
   render(){
