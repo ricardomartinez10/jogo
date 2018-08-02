@@ -1,12 +1,13 @@
 import React from 'react'
 import Title from '../../assets/components/title';
 import './contacto.css'
+import im from '../../../img/logo.png'
 
 function ContactoLayout(props) {
   return(
     <div className="Contacto-container">
       <Title title={props.title} />
-      <img src={props.img} alt=""/>
+      <img src={im} alt=""/>
     </div>
   )
 }
