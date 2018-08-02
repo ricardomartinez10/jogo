@@ -6,7 +6,6 @@ import im from '../../../img/logo.png'
 function ContactoLayout(props) {
   return(
     <div className="Contacto-container">
-      hey
       <Title title={props.title} />
       <img src={im} alt=""/>
     </div>
